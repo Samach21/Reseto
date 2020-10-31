@@ -45,7 +45,7 @@ int result(int* x)
 				save = false;
 				break;
 			}
-			for (int l = 0; l < preK; l++) //ลบตัวซ้ำ
+			for (int l = 0; l < preK; l++) //ตัดตัวซ้ำ
 			{
 				if (a[l] == (i * j))
 				{

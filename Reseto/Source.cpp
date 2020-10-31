@@ -24,7 +24,7 @@ int main()
 		printf("EROR");
 		return 1;
 	}
-	printf("\n%d", result(n));
+	printf("%d", result(n));
 	return 0;
 }
 
